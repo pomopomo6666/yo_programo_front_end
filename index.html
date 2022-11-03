@@ -1,10 +1,190 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8"> <!--- etiqueta de datos en español o latino --->
-       <title>Documento nueva pag... </title>
-</head>
-<body>
-    pepe es dios, Página web
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <!--- etiqueta de datos en español o latino --->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Documento nueva pag...</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Bootstrap_5/css/bootstrap.min.css" />
+  </head>
+  <body class="bg-dark">
+    <nav class="navbar navbar-expand-md">
+      <!-- cambiar md por lg -->
+
+      <div class="container-fluid bg-dark">
+        <!-- style="background-color:rgb(65, 64, 64);" -->
+        <a class="navbar-brand" href="#">
+          <!-- logo-->
+          <img
+            src="assets/yoprogramo_logo.png"
+            alt="Bootstrap"
+            width="100"
+            height="70"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <!--hamburguesa-->
+        <nav class="navbar navbar-dark">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#barra_ocultar"
+              aria-controls="barra_ocultar"
+              aria-expanded="true"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+        <!--barra a ocultar del header-->
+        <div class="collapse navbar-collapse" id="barra_ocultar">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+           
+          </ul>
+          <div class="d-flex bg-secondary">
+            
+              <img src="assets/f_logo_RGB-Blue_58.png" alt="" width="35" height="35">
+              <img src="assets/f_logo_RGB-Blue_58.png" alt="" width="35" height="35">
+              <img src="assets/f_logo_RGB-Blue_58.png" alt="" width="35" height="35">
+             
+           <button class="btn btn-outline-success" type="submit">
+              ingresar
+            </button>
+            <button class="btn btn-outline-success" type="submit">
+              salir
+            </button>
+          </div>          
+        </div>
+      </div>
+    </nav>
+    <!--banner-->
+    <div class="container-fluid bg-dark">
+      <div class="container" style="background-color: rgb(0, 0, 0)">
+        <header>
+          <div class="text-center">
+            <img
+              src="assets/bob_pag.png"
+              class="img-fluid"
+              alt="logo de la pag"
+              width="600"
+              height="240"
+            />
+          </div>
+        </header>
+      </div>
+    </div>
+    <main>
+      <!-- acerca de... -->
+      <div class="container-fluid bg-dark">
+        <div class="container my-2" style="background-color: rgb(0, 0, 0)">
+          
+            <div class="col-12 my-3">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-profiles/avatar-1.webp"
+                    alt="Generic placeholder image" class="img-fluid  mt-0   mb-0"
+                    style="width: 150px; z-index: 1">
+              <h3>Acerca de...</h3>
+              <p>nombre</p>
+              <p>apellido</p>
+              <p>edad</p>
+              <p>
+                Full stack Developer jr.
+              </p>
+            </div>
+            
+          </div>
+        </div>
+        <div class="container my-2" style="background-color: rgb(0, 0, 0)">
+          <h3>Experiencia</h3>
+              <p>
+                desarrollador de videojuegos independientes en el entorno unity
+                3D
+              </p>
+        </div>
+        <div class="container my-2" style="background-color: rgb(0, 0, 0)">
+          <h3>Educacion</h3>
+              <p>estudio secundario completo</p>
+        </div>
+        <div class="container my-2" style="background-color: rgb(0, 0, 0)">
+          <h3>hard skills soft skills</h3>
+              <p>Juegos 2D</p>
+              <p>juegos 3D</p>
+              <p>c++</p>
+        </div>
+        
+        <!-- proyectos -->
+        <div class="container my-2" style="background-color: rgb(0, 0, 0)">
+          <h3>Proyectos</h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus libero,
+          error a quaerat accusamus sit sint hic suscipit voluptates repellat
+          vero praesentium optio. Quod quibusdam culpa aliquam accusamus debitis
+          minus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Molestias temporibus quidem tempore, impedit debitis consequuntur
+          dolor? Quos dolores at illo culpa minus minima placeat accusantium.
+          Inventore labore dicta vero aut?
+        </div>
+        <!-- botones de ejemplo -->
+        <!-- <button onClick="Mycolor()">Cambiar color via javascript</button>
+        <div id="myID">Hola mundo</div>
+
+        <p><a href="#">enlase 1</a></p>
+        <p>
+          <span><a href="#">enlase 2</a></span>
+        </p>
+        <div>
+          <button onClick="addElement2 ()">agregar div, javascript</button>
+          <div id="app" style="background-color: rgb(0, 0, 0)">
+            ......................................................... . .
+          </div>
+        </div>
+        HTML -->
+       
+        
+        
+      </div>
+    </main>
+    <main role="main" class="container my-auto " style="background-color: rgb(0, 0, 0)">
+      <div class="row " >
+          <div id="login" class="col-lg-4 offset-lg-4 col-md-6 offset-md-3
+              col-12 ">
+              <h2 class="text-center">Bienvenido</h2>
+              <img class="img-fluid mx-auto d-block rounded"
+                  src="https://picsum.photos/id/870/300/200" />
+
+              <form>
+                  <div class="form-group">
+                      <label for="correo">Correo</label>
+                      <input id="correo" name="correo"
+                          class="form-control" type="email"
+                          placeholder="Correo electrónico">
+                  </div>
+                  <div class="form-group">
+                      <label for="palabraSecreta">Contraseña</label>
+                      <input id="palabraSecreta" name="palabraSecreta"
+                          class="form-control" type="password"
+                          placeholder="Contraseña">
+                  </div>
+                  <button type="submit" class="btn btn-primary mb-2">
+                      Entrar
+                  </button>                  
+              </form>
+          </div>
+      </div>
+  </main>
+ 
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="bootstrap_5/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+
+    <footer>pie de pagina</footer>
+  </body>
 </html>
+<!-- mayuscula + alt + "A": comentar seleccion -->
+<!-- may+alt+f acomodar todas las lineas -->
