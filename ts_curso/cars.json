@@ -1,0 +1,17 @@
+[
+    {
+        "modelo":"ford",
+        "produccion":2010,
+        "millaje": 12000
+    },
+    {
+        "modelo":"honda",
+        "produccion":2021,
+        "millaje": 4500 
+    },
+    {
+        "modelo":"fiat",
+        "produccion":2016,
+        "millaje": 58000 
+    }
+]
